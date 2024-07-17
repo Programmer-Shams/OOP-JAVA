@@ -1,8 +1,10 @@
+package src.com.tutorial;
+
 public class Main {
     public static void main(String[] args) {
         // to craete the object
 
-//        Student student1 = new Student();
+//        src.com.tutorial.Student student1 = new src.com.tutorial.Student();
 //        student1.name = "John Doe";
 //        student1.rollno = 1;
 //        student1.marks = 80;
@@ -51,7 +53,7 @@ class Student {
     }
 
 
-    // A function to display
+    // src.com.tutorial.A function to display
     void displayData() {
         System.out.println("My name is " + this.name + " and I am Roll Number" + this.rollno + " My mark is " + this.marks);
     }
@@ -59,7 +61,7 @@ class Student {
 
     // Garbage collector
 //    for(int i = 0; i < 100; i ++) {
-//        A obj = new A();
+//        src.com.tutorial.A obj = new src.com.tutorial.A();
 //    }
 
     @Override
